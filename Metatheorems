@@ -7,5 +7,10 @@ The following theorem simplifies the amount of formal proof needed.
 Defenition.
 Let Γ a set of premises and noempty. If Γ, P ⊨ Q then Γ ⊨ P ⟹ Q.
 
-I know this definition could be some hard to understand. Next I will give an example.
-## Prove with Deducion Metatheorems this Theorem: ** P ≡
+I know this definition could be some hard to understand. I recommend you to read "Lógica y Matemáticas discretas en la informatica, El estilo calculatorio. By Jaime Alejandro Bohórquez Villamizar". In that book it is explaim better and you can find a proof of this Metatheorem. 
+Temporarily, I will give you an example to understand better.
+## Prove with Deducion Metatheorems this Theorem: ** (P ∧ Q) ⟹ (P ≡ Q) **
+**proof:**
+<p align="center">
+  Este texto está centrado.
+</p>
