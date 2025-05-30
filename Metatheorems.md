@@ -54,3 +54,6 @@ Q
 
 
 <p align="right">∎</p>
+
+## Metatheorem of generalization
+
