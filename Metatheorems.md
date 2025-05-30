@@ -11,6 +11,18 @@ I know this definition could be some hard to understand. I recommend you to read
 Temporarily, I will give you an example to understand better.
 ## Prove with Deducion Metatheorems this Theorem: ** (P ∧ Q) ⟹ (P ≡ Q) **
 **proof:**
+For Deducion Metatheorems just prove, 
 <p align="center">
-  Este texto está centrado.
+P,Q ⊨ P ≡ Q
 </p>
+(Here, we take all of things before the conditional and we suppos that its true.)
+To do this, we adapt the use of the test format in the following way.
+<p align="center">
+P
+≡ < hypothesis: P, P equivalent to P ≡ True >
+True
+≡  < hypothesis: Q, P equivalent to Q ≡ True >
+Q
+</p>
+∎
+
