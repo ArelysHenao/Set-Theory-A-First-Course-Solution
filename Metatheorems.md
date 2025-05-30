@@ -16,6 +16,7 @@ For Deducion Metatheorems just prove,
 P,Q ⊨ P ≡ Q
 </p>
 (Here, we take all of things before the conditional and we suppos that its true.)
+
 To do this, we adapt the use of the test format in the following way.
 <p align="center">
 P
