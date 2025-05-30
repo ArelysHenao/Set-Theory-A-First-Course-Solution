@@ -53,4 +53,4 @@ Q
 </div>
 
 
-∎
+<p align="right">∎</p>
