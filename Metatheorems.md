@@ -1,34 +1,55 @@
 # Metatheorems
+
 ### What is a Metatheorem?
-A **metatheorem** is a theorem about a formal system itself, rather than about objects within the system. It concerns properties of the system's syntax, semantics, or proof rules.
-We are going to use two of them.
-## Deducion Metatheorems
-The following theorem simplifies the amount of formal proof needed.
-Defenition.
-Let Γ a set of premises and noempty. If Γ, P ⊨ Q then Γ ⊨ P ⟹ Q.
 
-I know this definition could be some hard to understand. I recommend you to read "Lógica y Matemáticas discretas en la informatica, El estilo calculatorio. By Jaime Alejandro Bohórquez Villamizar". In that book it is explaim better and you can find a proof of this Metatheorem. 
-Temporarily, I will give you an example to understand better.
-## Prove with Deducion Metatheorems this Theorem: ** (P ∧ Q) ⟹ (P ≡ Q) **
-**proof:**
-For Deducion Metatheorems just prove, 
+A **metatheorem** is a theorem *about* a formal system itself, rather than about the objects within the system. It describes properties of the system's syntax, semantics, or inference rules.
+
+In this section, we will use two important metatheorems.
+
+---
+
+## Deduction Metatheorem
+
+The following metatheorem simplifies the amount of formal proof required.
+
+**Definition:**  
+Let Γ be a non-empty set of premises. If  
+\[
+Γ, P ⊨ Q
+\]  
+then  
+\[
+Γ ⊨ P ⟹ Q
+\]
+
+> **Note:** I understand this definition may be difficult to grasp at first. I recommend the book *"Lógica y Matemáticas Discretas en la Informática: El Estilo Calculatorio"* by **Jaime Alejandro Bohórquez Villamizar**.  
+> It provides a clearer explanation and includes a formal proof of this metatheorem.
+
+Meanwhile, let’s explore a simple example to make the idea more accessible.
+
+---
+
+## Proving the Theorem Using the Deduction Metatheorem:
+
+### **(P ∧ Q) ⟹ (P ≡ Q)**
+
+**Proof:**  
+By the Deduction Metatheorem, it is enough to prove:
+
+<p align="center"><code>P, Q ⊨ P ≡ Q</code></p>
+
+*(Here, we assume all statements before the implication are true.)*
+
+We adapt the use of the test format in the following way:
+
 <p align="center">
-P,Q ⊨ P ≡ Q
-</p>
-(Here, we take all of things before the conditional and we suppos that its true.)
 
-To do this, we adapt the use of the test format in the following way.
-<p align="center">
-P
-  
-≡ < hypothesis: P, P equivalent to P ≡ True >
-
-True
-
-≡  < hypothesis: Q, P equivalent to Q ≡ True >
-
-Q
+P  
+≡  (*by hypothesis: P; since any statement is equivalent to itself,* **P ≡ True**)  
+True  
+≡  (*by hypothesis: Q; so now P ≡ Q is equivalent to True*)  
+Q  
 
 </p>
+
 ∎
-
