@@ -45,9 +45,9 @@ We adapt the use of the test format in the following way:
 <div align="center">
 
 P<br>
-≡  (*by hypothesis: P; since any statement is equivalent to itself,* **P ≡ True**)<br>
+≡ <*by hypothesis: P; since any statement is equivalent to itself,* **P ≡ True**> <br>
 True<br>
-≡  (*by hypothesis: Q; so now P ≡ Q is equivalent to True*)<br>
+≡ <*by hypothesis: Q; so now P ≡ Q is equivalent to True*)> <br>
 Q
 
 </div>
