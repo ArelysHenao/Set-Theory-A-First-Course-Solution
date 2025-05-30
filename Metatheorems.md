@@ -29,7 +29,7 @@ Meanwhile, let’s explore a simple example to make the idea more accessible.
 
 ---
 
-## Proving the Theorem Using the Deduction Metatheorem:
+### Proving the Theorem Using the Deduction Metatheorem:
 
 ### **(P ∧ Q) ⟹ (P ≡ Q)**
 
