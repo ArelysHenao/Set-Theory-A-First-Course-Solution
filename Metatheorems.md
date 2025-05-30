@@ -42,14 +42,15 @@ By the Deduction Metatheorem, it is enough to prove:
 
 We adapt the use of the test format in the following way:
 
-<p align="center">
+<div align="center">
 
-P  
-≡  (*by hypothesis: P; since any statement is equivalent to itself,* **P ≡ True**)  
-True  
-≡  (*by hypothesis: Q; so now P ≡ Q is equivalent to True*)  
-Q  
+P<br>
+≡  (*by hypothesis: P; since any statement is equivalent to itself,* **P ≡ True**)<br>
+True<br>
+≡  (*by hypothesis: Q; so now P ≡ Q is equivalent to True*)<br>
+Q
 
-</p>
+</div>
+
 
 ∎
