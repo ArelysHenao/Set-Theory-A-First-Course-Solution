@@ -20,10 +20,15 @@ P,Q ⊨ P ≡ Q
 To do this, we adapt the use of the test format in the following way.
 <p align="center">
 P
+  
 ≡ < hypothesis: P, P equivalent to P ≡ True >
+
 True
+
 ≡  < hypothesis: Q, P equivalent to Q ≡ True >
+
 Q
+
 </p>
 ∎
 
