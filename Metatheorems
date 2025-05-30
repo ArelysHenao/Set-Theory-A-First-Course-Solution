@@ -8,4 +8,4 @@ Defenition.
 Let Γ a set of premises and noempty. If Γ, P ⊨ Q then Γ ⊨ P ⟹ Q.
 
 I know this definition could be some hard to understand. Next I will give an example.
-## Prove with Deducion Metatheorems this Theorem: ** P 
+## Prove with Deducion Metatheorems this Theorem: ** P ≡
