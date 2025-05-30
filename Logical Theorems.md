@@ -11,11 +11,11 @@
 ## Distributive Laws
 1. φ ∧ (ψ ∨ τ) ≡ (φ ∧ ψ) ∨ (φ ∧ τ)
 2. φ ∨ (ψ ∧ τ) ≡ (φ ∨ ψ) ∧ (φ ∨ τ)
-##  Double Negation Law (DNL)
+## Double Negation Law (DNL)
 1. ¬(¬φ) ≡ φ
-##  neutral element for ∧
+## Neutral element for ∧
 1. φ ∧ true ≡ φ
-## neutral element for ∨
+## Neutral element for ∨
 1. φ ∨ false ≡ φ
 ## Definitions of Logical Implication 
 1. (φ ⟹ ψ) ≡ (¬φ ∨ ψ)
