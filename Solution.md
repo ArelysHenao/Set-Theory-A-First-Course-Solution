@@ -23,19 +23,19 @@ a ∉ A\B ∧ a ∈ A
 ¬(a ∈ A\B) ∧ a ∈ A<br>
 ≡ < definition of \ ><br>
 ¬(a ∈ A  ∧  a ∉ B) ∧ a ∈ A<br>
-≡ < Morgan's Laws><br>
+≡ < Morgan's Laws ><br>
 (¬(a ∈ A) ∨ ¬(a ∉ B)) ∧ a ∈ A<br>
 ≡ < definition of ∉ ><br>
 (¬(a ∈ A) ∨ ¬(¬(a ∈ B))) ∧ a ∈ A<br>
 ≡ < DNL> <br>
 (¬(a ∈ A) ∨ a ∈ B) ∧ a ∈ A<br>
-≡ < Distributive Laws> <br>
+≡ < Distributive Laws > <br>
 (¬(a ∈ A) ∧ a ∈ A) ∨ (a ∈ B ∧ a ∈ A)<br>
-≡ < Contradiction for ∧> <br>
+≡ < Contradiction for ∧ > <br>
 false ∨ (a ∈ B ∧ a ∈ A)<br>
 ≡ < Neutral element for ∨><br>
 (a ∈ B ∧ a ∈ A)<br>
-⟹ < Debilitation><br>
+⟹ < Debilitation ><br>
 a ∈ B<br>
 </div>
 <p align="right">∎</p>
