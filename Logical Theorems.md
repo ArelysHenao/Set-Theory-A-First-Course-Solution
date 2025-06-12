@@ -27,3 +27,5 @@
 1. (φ ⟹ ψ) ≡ ((φ ⟹ ψ) ∧ (ψ ⟹ φ))
 ## Contradiction for ∧
 1. ¬φ ∧ φ ≡ false
+## Debilitation
+1. φ ∧ ψ ⟹ φ
