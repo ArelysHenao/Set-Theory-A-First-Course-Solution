@@ -5,9 +5,10 @@ Note: first, I recomMend you writing it in calculative logic.
 <div align="center">
   
 **a ∉ A\B ∧ a ∈ A ⟹ a ∈ B**<br>
-
+</div>
 we do it for transit to left to right,
 
+<div align="center">
 a ∉ A\B ∧ a ∈ A
 
 </div>
