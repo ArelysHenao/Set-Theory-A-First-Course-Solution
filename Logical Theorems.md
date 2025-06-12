@@ -25,3 +25,5 @@
 1. ¬φ ⟹ ¬ψ ≡ ψ ⟹ φ
 ## Biconditional Law
 1. (φ ⟹ ψ) ≡ ((φ ⟹ ψ) ∧ (ψ ⟹ φ))
+## Contradiction
+1. ¬φ ∧ φ ≡ false
