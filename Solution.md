@@ -21,4 +21,6 @@ we do it for transit to left to right,
 a ∉ A\B ∧ a ∈ A
 ≡ < definition of ∉ >
 ¬(a ∈ A\B) ∧ a ∈ A
+≡ < definition of \ >
+
 </div>
