@@ -1,56 +1,41 @@
-## 📘 Definition
+## Definition:
+Let A and B be sets.
+1. ¬(a ∈ A) ≡ a ∉ A
+2. a ∈ A\B ≡ a ∈ A  ∧  a ∉ B
+3. a ∈ A∪B ≡ a ∈ A  ∨  a ∈ B
+4. a ∈ A∩B ≡ a ∈ A  ∧  a ∈ B
 
-Let \( A \) and \( B \) be sets:
 
-1. \( \neg(a \in A) \equiv a \notin A \)
-2. \( a \in A \setminus B \equiv a \in A \land a \notin B \)
-3. \( a \in A \cup B \equiv a \in A \lor a \in B \)
-4. \( a \in A \cap B \equiv a \in A \land a \in B \)
 
----
-
-# 🧠 EXERCISE 1.1
-
-Let \( A, B, C \) be sets.
-
-### 1. If \( a \notin A \setminus B \) and \( a \in A \), show that \( a \in B \)
-
-> 💡 *Note: First, write it using calculative logic.*
+# EXERCISE 1.1
+Let A,B and C be sets.
+###  1.  If a ∉ A\B and a ∈ A, show that a ∈ B.
+Note: first, I recommend you writing it in calculative logic.
+<div align="center">
+  
+**a ∉ A\B ∧ a ∈ A ⟹ a ∈ B**<br>
+</div>
+we do it for transit to left to right,
 
 <div align="center">
-
-**\( a \notin A \setminus B \land a \in A \Rightarrow a \in B \)**
-
-<br>
-
-We proceed from left to right:
-
-<br>
-
-\[
-\begin{aligned}
-& a \notin A \setminus B \land a \in A \\
-& \equiv && \text{(Definition of } \notin \text{)} \\
-& \neg(a \in A \setminus B) \land a \in A \\
-& \equiv && \text{(Definition of } \setminus \text{)} \\
-& \neg(a \in A \land a \notin B) \land a \in A \\
-& \equiv && \text{(De Morgan's Laws)} \\
-& (\neg(a \in A) \lor \neg(a \notin B)) \land a \in A \\
-& \equiv && \text{(Definition of } \notin \text{)} \\
-& (\neg(a \in A) \lor \neg(\neg(a \in B))) \land a \in A \\
-& \equiv && \text{(Double Negation)} \\
-& (\neg(a \in A) \lor a \in B) \land a \in A \\
-& \equiv && \text{(Distributive Law)} \\
-& (\neg(a \in A) \land a \in A) \lor (a \in B \land a \in A) \\
-& \equiv && \text{(Contradiction)} \\
-& \text{false} \lor (a \in B \land a \in A) \\
-& \equiv && \text{(Identity Law)} \\
-& a \in B \land a \in A \\
-& \Rightarrow && \text{(Weakening)} \\
-& a \in B
-\end{aligned}
-\]
-
+a ∉ A\B ∧ a ∈ A
+≡ < definition of ∉ ><br>
+¬(a ∈ A\B) ∧ a ∈ A<br>
+≡ < definition of \ ><br>
+¬(a ∈ A  ∧  a ∉ B) ∧ a ∈ A<br>
+≡ < Morgan's Laws ><br>
+(¬(a ∈ A) ∨ ¬(a ∉ B)) ∧ a ∈ A<br>
+≡ < definition of ∉ ><br>
+(¬(a ∈ A) ∨ ¬(¬(a ∈ B))) ∧ a ∈ A<br>
+≡ < DNL> <br>
+(¬(a ∈ A) ∨ a ∈ B) ∧ a ∈ A<br>
+≡ < Distributive Laws > <br>
+(¬(a ∈ A) ∧ a ∈ A) ∨ (a ∈ B ∧ a ∈ A)<br>
+≡ < Contradiction for ∧ > <br>
+false ∨ (a ∈ B ∧ a ∈ A)<br>
+≡ < Neutral element for ∨><br>
+(a ∈ B ∧ a ∈ A)<br>
+⟹ < Debilitation ><br>
+a ∈ B<br>
 </div>
-
 <p align="right">∎</p>
