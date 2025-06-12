@@ -18,7 +18,7 @@ Note: first, I recommend you writing it in calculative logic.
 we do it for transit to left to right,
 
 <div align="center">
-a ∉ A\B ∧ a ∈ A
+a ∉ A\B ∧ a ∈ A <br>
 ≡ < definition of ∉ ><br>
 ¬(a ∈ A\B) ∧ a ∈ A<br>
 ≡ < definition of \ ><br>
