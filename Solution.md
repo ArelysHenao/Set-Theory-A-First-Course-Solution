@@ -4,7 +4,7 @@ Let A,B and C be sets.
 Note: first, I recomMend you writing it in calculative logic.
 <div align="center">
 
-a ∉ A\B ∧ a ∈ A<br>
+**a ∉ A\B ∧ a ∈ A**<br>
 ≡ <*by hypothesis: P; P is equivalent to **P ≡ True***> <br>
 True<br>
 ≡ <*by hypothesis: Q; P is equivalent to **Q ≡ True***)> <br>
