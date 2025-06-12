@@ -5,5 +5,5 @@ Note: first, I recomMend you writing it in calculative logic.
 \[
 a ∉ A\B ∧ a ∈ A
 \]
-a ∉ A\B ∧ a ∈ A
+
 
