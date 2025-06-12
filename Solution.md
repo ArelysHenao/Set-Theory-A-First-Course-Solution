@@ -8,6 +8,6 @@ Note: first, I recomMend you writing it in calculative logic.
 
 we do it for transit to left to right,
 
-a ∉ A\B ∧ a ∈ A<br>
+a ∉ A\B ∧ a ∈ A
 
 </div>
