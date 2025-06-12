@@ -6,4 +6,8 @@ Note: first, I recomMend you writing it in calculative logic.
   
 **a ∉ A\B ∧ a ∈ A ⟹ a ∈ B**<br>
 
+we do it for transit to left to right,
+
+a ∉ A\B ∧ a ∈ A<br>
+
 </div>
