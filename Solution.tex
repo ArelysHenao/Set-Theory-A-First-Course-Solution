@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+
+\geometry{a4paper, margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Exercise 1.1}
+\lhead{Set Theory}
+\rfoot{\thepage}
+
+\title{\textbf{Set Theory – Exercise 1.1}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Definition}
+
+Let \( A \) and \( B \) be sets:
+
+\begin{enumerate}
+    \item \( \neg(a \in A) \equiv a \notin A \)
+    \item \( a \in A \setminus B \equiv a \in A \land a \notin B \)
+    \item \( a \in A \cup B \equiv a \in A \lor a \in B \)
+    \item \( a \in A \cap B \equiv a \in A \land a \in B \)
+\end{enumerate}
+
+\section*{Exercise 1.1}
+
+Let \( A, B, C \) be sets.
+
+\subsection*{Problem}
+
+If \( a \notin A \setminus B \) and \( a \in A \), show that \( a \in B \).
+
+\subsection*{Proof}
+
+We proceed step by step, transforming the left-hand side:
+
+\begin{align*}
+    & a \notin A \setminus B \land a \in A \\
+    \equiv{} & \neg(a \in A \setminus B) \land a \in A \quad \text{(Definition of } \notin) \\
+    \equiv{} & \neg(a \in A \land a \notin B) \land a \in A \quad \text{(Definition of } \setminus) \\
+    \equiv{} & (\neg(a \in A) \lor \neg(a \notin B)) \land a \in A \quad \text{(De Morgan's Law)} \\
+    \equiv{} & (\neg(a \in A) \lor \neg(\neg(a \in B))) \land a \in A \quad \text{(Definition of } \notin) \\
+    \equiv{} & (\neg(a \in A) \lor a \in B) \land a \in A \quad \text{(Double Negation)} \\
+    \equiv{} & (\neg(a \in A) \land a \in A) \lor (a \in B \land a \in A) \quad \text{(Distributive Law)} \\
+    \equiv{} & \text{false} \lor (a \in B \land a \in A) \quad \text{(Contradiction: } A \land \neg A) \\
+    \equiv{} & a \in B \land a \in A \quad \text{(Identity of } \lor) \\
+    \Rightarrow{} & a \in B \quad \text{(Weakening)}
+\end{align*}
+
+\hfill\ensuremath{\blacksquare}
+
+\end{document}
