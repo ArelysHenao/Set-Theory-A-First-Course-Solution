@@ -1,7 +1,7 @@
 ## Definition:
 Let A and B be sets.
 1. ¬(a ∈ A) ≡ a ∉ A
-2. a ∈ A\B ≡ a ∈ A  ∧  a ∉ B
+2. a ∈ A\B ≡ a ∈ A  ∧               a ∉ B
 
 
 
